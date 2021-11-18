@@ -4,3 +4,10 @@ export const sum = (a: number, b: number) => {
   }
   return a + b;
 };
+
+export const test = () => {
+  const ary: string[] = [];
+  console.log(ary.indexOf('test'));
+  var sym = Symbol();
+  sym.toString();
+};
